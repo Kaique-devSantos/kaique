@@ -1,3 +1,42 @@
-.foto-perfil {
-    width: 40px;
+
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+    --botao-azul-efeito: #3c92fa;
+    --violeta-hover:#8B008B;
+
+}
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    color: var(--branco-principal);
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+    
+}
+
+.nome{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.secao-inicio {
+    
+    background-color: black;
+}
+p {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    line-height: 1.5em;
+
+}
+
+.foto-perfil{
+   text-align: center;
 }
