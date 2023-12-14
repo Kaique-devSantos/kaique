@@ -20,14 +20,26 @@
     
 }
 
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
 .nome{
     font-size: 50px;
     color: white;
     text-align: center;
 }
 .secao-inicio {
-    
+    background-image:"/img/eu.jpg" ;
     background-color: black;
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 p {
     color: white;
